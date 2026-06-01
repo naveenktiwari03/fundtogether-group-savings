@@ -2,15 +2,17 @@
 
 ## One-Line Summary
 
-FundTogether is a collaborative savings prototype that turns informal group
-money coordination into a transparent goal, contribution, and progress tracker.
+FundTogether turns informal group money coordination into a transparent goal,
+contribution, and progress tracker.
 
 ## Why This Problem
 
 Shared saving already happens in everyday life, but the workflow is fragmented.
 The organizer carries the operational burden, while contributors rely on trust
-instead of visibility. That creates a product opportunity around clarity,
-accountability, and reminders.
+instead of visibility.
+
+That creates a product opportunity around clarity, accountability, and
+lightweight automation.
 
 ## User Journey
 
@@ -19,6 +21,17 @@ accountability, and reminders.
 3. Members see the goal, deadline, expected contribution, and progress.
 4. Members contribute manually or through future automated contribution flows.
 5. The group tracks milestones and decides when to withdraw.
+
+## Product Decisions
+
+- **Trust first:** the ledger is the core product surface because shared-money
+  products fail when members cannot verify who paid.
+- **Low-friction activation:** the first user action is goal creation, not
+  financial configuration.
+- **Progress as motivation:** milestone visibility gives members a reason to
+  return and contribute again.
+- **Payments later:** payment movement is deferred until the tracking workflow
+  proves useful enough to earn trust.
 
 ## Prioritization
 
@@ -86,6 +99,13 @@ Outcome:
 3. Prototype invite and contribution reminder flows.
 4. Compare three withdrawal governance models.
 5. Measure whether visibility reduces follow-up messages to the organizer.
+
+## What I Would Do Differently
+
+- Start with a sharper invite and permission prototype before exploring returns.
+- Replace broad investment claims with compliance-reviewed placeholder language.
+- Add a withdrawal approval flow earlier, because exit rules are central to
+  trust.
 
 ## PM Skills Demonstrated
 

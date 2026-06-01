@@ -1,4 +1,4 @@
-# Product Brief
+# Product Brief: FundTogether
 
 ## Problem
 
@@ -10,7 +10,8 @@ organizer. That creates friction around:
 - how close the group is to the goal
 - whether money is being held safely
 - what happens when someone drops out
-- when and how the group can withdraw
+- who approves withdrawals
+- how progress is communicated without constant reminders
 
 The emotional problem is trust. The operational problem is coordination.
 
@@ -21,16 +22,18 @@ Primary user:
 - organizes shared financial goals for friends, family, or a community group
 - currently tracks contributions manually
 - wants visibility without becoming a full-time treasurer
+- needs an easy way to keep people aligned after the group agrees on a goal
 
 Secondary user:
 
 - contributes to shared goals
 - wants confidence that their contribution is recorded
 - wants reminders and progress updates without chasing the organizer
+- needs to understand where the group stands before contributing again
 
-## Product Bet
+## Product Thesis
 
-The wedge is a transparent shared ledger around a goal.
+The valuable wedge is a transparent shared ledger around a goal.
 
 ```text
 goal creation -> member invites -> contribution tracking -> milestone progress
@@ -70,6 +73,7 @@ The current prototype focuses on:
 - Which goals are most urgent: travel, gifts, emergencies, family events, or
   community projects?
 - What withdrawal approval model feels fair?
+- At what amount does the group need more formal trust and permission controls?
 
 ## Success Criteria
 
@@ -89,10 +93,9 @@ An early product test would be promising if:
 - Users may prefer existing payment apps unless the shared ledger creates clear
   incremental value.
 
-## Product Manager Takeaways
+## Product Takeaways
 
-This prototype shows how I would separate a broad fintech idea into testable
-product layers:
+This prototype separates a broad fintech idea into testable product layers:
 
 - prove the coordination problem first
 - validate trust and transparency needs
